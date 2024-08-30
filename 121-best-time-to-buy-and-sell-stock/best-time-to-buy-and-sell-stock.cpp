@@ -18,7 +18,7 @@ public:
 
         int maxx = 0; // Variable to store the maximum profit
         for (int i = 0; i < n; i++) {
-            maxx = std::max(maxx, lr[i] - sm[i]); // Calculate the maximum profit
+            maxx = max(maxx, lr[i] - sm[i]); // Calculate the maximum profit
         }
         return maxx;
 
