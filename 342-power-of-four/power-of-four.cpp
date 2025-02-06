@@ -6,7 +6,7 @@ public:
         long long ans = 1;
         while(ans< n){
             if(ans>n)return false;
-            ans = ans*4;
+            ans = ans<<2;
         }
         if(ans == n)
         return true;
